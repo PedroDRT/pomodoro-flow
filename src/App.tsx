@@ -1,5 +1,6 @@
 import { Container } from './components/Container';
 import { CountDown } from './components/CountDown';
+import { Cycles } from './components/Cycles';
 import { DefaultInput } from './components/DefaultInput';
 import { Footer } from './components/Footer';
 import { Logo } from './components/Logo';
@@ -36,8 +37,7 @@ export function App() {
           </div>
 
           <div className='formRow'>
-            <span>Ciclos</span>
-            <span>0 0 0 0 0 0 0</span>
+            <Cycles />
           </div>
 
           <div className='formRow'>
